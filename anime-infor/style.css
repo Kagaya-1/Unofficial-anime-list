@@ -212,7 +212,8 @@ a:hover {
 /* Infor Box */
 #infor-box {
     background: #f5f5f5;
-    width: 240px;
+    width: 260px;
+    height: max-content;
     border-radius: 20px;
     vertical-align: top;
 
@@ -233,10 +234,62 @@ a:hover {
     }
 }
 
-/* Op and Ed */
+/* Op, Ed, VA, Char */
+
+
+/* Va/Char */
+#va-char-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 1rem;
+    text-align: top;
+    overflow: hidden;
+
+    img {
+        width: 46px;;
+        border: 1px solid black;
+    }
+
+    td {
+        width: 500px;
+    }
+}
+
+.td-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.char-content {
+    overflow: hidden;
+    display: flex;
+
+    p {
+        margin: 0;
+    }
+}
+
+.va-content {
+    display: flex;
+    flex-direction: row-reverse;
+
+    p {
+        margin: 0;
+    }
+}
+
+.va-align {
+    text-align: right;
+    margin: 3px
+}
 
 /* Op */
 #op-container {
+    overflow: hidden;
     flex-direction: row;
 }
 
