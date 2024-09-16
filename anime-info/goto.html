@@ -4,6 +4,7 @@
     <title>5-toubun no Hanayome series</title>
     <link rel="stylesheet" href="../style.css" />
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/f65a8d8213.js"
       crossorigin="anonymous"
@@ -38,10 +39,10 @@
       <div class="button"><a href="../my.html"><-Back</a></div>
 
       <!-- Top Anime info -->
-      <table class="main-tb border">
+      <table class="main-tb border" border="1">
         <tr>
           <td rowspan="4">
-            <div id="img-content">
+            <div data-aos="fade-right" id="img-content">
               <a
                 href="https://myanimelist.net/anime/39783/5-toubun_no_Hanayome_∬"
                 target="_blank"
@@ -136,50 +137,52 @@
 
         <!-- Information -->
         <tr>
-          <td id="infor-box" rowspan="10">
-            <h3>Information</h3>
-            <p>
-              Type: TV <br />
-              Episodes: 12 <br />
-              Status: Finished Airing <br />
-              Aired: <br />
-              S1: Jan 11, 2019 to Mar 29, 2019 <br />
-              S2: Jan 8, 2021 to Mar 26, 2021 <br />
-              Premiered: Winter 2019, Winter 2021 <br />
-              <br />
-              Producers: <br />
-              S1: Pony Canyon, Kodansha, ZERO-A, GYAO!, eNa <br />
-              S2: Pony Canyon, Kodansha, DAX Production, BS11, Nichion, GYAO!,
-              <br />
-              Good Smile Film, MAGNET Licensors: <br />
-              S1: Funimation <br />
-              S2: (No info) <br /><br />
-              Studios: <br />
-              S1: Tezuka Productions <br />
-              S2: Bibury Animation Studios Source: Manga <br />
-              Genres: Comedy, Romance <br />
-              Themes: Harem, School <br />
-              Demographic: Shounen <br />
-              Duration: 24 min. per ep. <br />
-              Rating: PG-13 - Teens 13 or older <br />
-              <br />
-            </p>
-            <hr />
-            <p>
-              Statistics <br />
-              Score: 8.031 (scored by 445,628 users) <br />
-              Ranked: #5992 <br />
-              Popularity: #280 <br />
-              Members: 737,258 <br />
-              Favorites: 11,515 <br />
-            </p>
-            <hr />
-            <p>
-              Streaming Platforms
-              <a href="https://www.crunchyroll.com">Crunchyroll</a> <br />
-              <a href="https://www.bilibili.tv/en/anime">Bilibili</a> <br />
-              <i>* Some of it may be unavailable in your region.</i>
-            </p>
+          <td id="infor-td" rowspan="10">
+            <div data-aos="fade-right" id="infor-box">
+              <h3>Information</h3>
+              <p>
+                Type: TV <br />
+                Episodes: 12 <br />
+                Status: Finished Airing <br />
+                Aired: <br />
+                S1: Jan 11, 2019 to Mar 29, 2019 <br />
+                S2: Jan 8, 2021 to Mar 26, 2021 <br />
+                Premiered: Winter 2019, Winter 2021 <br />
+                <br />
+                Producers: <br />
+                S1: Pony Canyon, Kodansha, ZERO-A, GYAO!, eNa <br />
+                S2: Pony Canyon, Kodansha, DAX Production, BS11, Nichion, GYAO!,
+                <br />
+                Good Smile Film, MAGNET Licensors: <br />
+                S1: Funimation <br />
+                S2: (No info) <br /><br />
+                Studios: <br />
+                S1: Tezuka Productions <br />
+                S2: Bibury Animation Studios Source: Manga <br />
+                Genres: Comedy, Romance <br />
+                Themes: Harem, School <br />
+                Demographic: Shounen <br />
+                Duration: 24 min. per ep. <br />
+                Rating: PG-13 - Teens 13 or older <br />
+                <br />
+              </p>
+              <hr />
+              <p>
+                Statistics <br />
+                Score: 8.031 (scored by 445,628 users) <br />
+                Ranked: #5992 <br />
+                Popularity: #280 <br />
+                Members: 737,258 <br />
+                Favorites: 11,515 <br />
+              </p>
+              <hr />
+              <p>
+                Streaming Platforms
+                <a href="https://www.crunchyroll.com">Crunchyroll</a> <br />
+                <a href="https://www.bilibili.tv/en/anime">Bilibili</a> <br />
+                <i>* Some of it may be unavailable in your region.</i>
+              </p>
+            </div>
           </td>
 
           <!-- Op Anime content -->
@@ -187,7 +190,7 @@
         </tr>
         <tr>
           <td class="op-box" colspan="2">
-            <div class="op-content">
+            <div data-aos="fade-up" class="op-content">
               <h4>Season 1</h4>
               <iframe
                 width="560"
@@ -203,7 +206,7 @@
           </td>
 
           <td class="op-box" colspan="2">
-            <div class="op-content">
+            <div data-aos="fade-up" class="op-content">
               <h4>Season 2</h4>
               <iframe
                 width="560"
@@ -219,7 +222,7 @@
           </td>
 
           <td class="op-box" colspan="2">
-            <div class="op-content">
+            <div data-aos="fade-up" class="op-content">
               <h4>Special</h4>
               <iframe
                 width="560"
@@ -323,5 +326,9 @@
         ><a href="https://github.com/Kagaya-1" title="Kagaya-01">GitHub</a>
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
