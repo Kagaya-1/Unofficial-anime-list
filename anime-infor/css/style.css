@@ -3,7 +3,7 @@
 
 body {
     background-size: cover;
-    background-image: url(../../img/aris.jpg);
+    background-image: url(../../img/kayoko.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -80,8 +80,7 @@ a:hover {
     display: flex;
     margin-left: 26px;
     margin-right: 20px;
-    position: -webkit-sticky;
-    position: sticky;
+    box-shadow: 10px 10px 10px #000000;
 
 
 }
@@ -105,7 +104,7 @@ a:hover {
 }
 
 button:hover {
-    box-shadow: 4px 4px 7px #838383;
+    box-shadow: 4px 4px 7px #000000;
     transition: 0.3s ease-in;
 
 }
@@ -134,6 +133,7 @@ button:hover {
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+    box-shadow: 10px 10px 10px #000000;
 
     img{
         width: 200px;
@@ -163,6 +163,7 @@ button:hover {
     flex-direction: row;
     margin-left: 1rem;
     margin-bottom: 1rem; 
+    
 }
 
 #title {
@@ -171,6 +172,7 @@ button:hover {
     margin-bottom: 1rem;
     width: max-content;
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 7px;
     h3 {
         margin: 0;
@@ -186,6 +188,7 @@ button:hover {
     text-align: center;
     margin-right: 1rem;
     padding: 5px 20px;
+    box-shadow: 10px 10px 10px #000000;
 
     #a {
         font-size: 17px;
@@ -201,6 +204,7 @@ button:hover {
 /* trailer content */
 .trailer-content {
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     max-width: min-content;
     margin-top: -30px;
     padding: 5px;
@@ -221,9 +225,11 @@ button:hover {
 
 #synop-content {
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     padding: 20px;
     border-radius: 20px;
     margin-left: 1rem;
+    margin-right: 1rem;
 
     h3 {
         margin: 0;
@@ -242,6 +248,7 @@ button:hover {
 /* Infor Box */
 #infor-box {
     background: #f5f5f5;
+    box-shadow: 10px 10px 10px #000000;
     width: 240px;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -275,12 +282,12 @@ button:hover {
 
 /* Va/Char */
 #va-char-content {
-    background-color: #b6b6b6;
     padding-top: 7px;
     border-radius: 10px;
     margin-left: 10px;
     text-align: top;
     overflow: hidden;
+    
 
     img {
         width: 46px;
@@ -297,6 +304,7 @@ button:hover {
 
 .td-flex {
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -318,6 +326,7 @@ button:hover {
 .va-content {
     display: flex;
     flex-direction: row-reverse;
+    
 
     p {
         margin: 0;
@@ -342,6 +351,7 @@ button:hover {
     margin-bottom: 1rem;
     width: max-content;
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 7px;
     h3 {
         margin: 0;
@@ -359,6 +369,7 @@ button:hover {
 
 .op-content {
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 12px;
     padding: 5px;
     margin-right: 1rem;
@@ -378,6 +389,7 @@ button:hover {
 
 .ed-content {
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 12px;
     padding: 5px;
     margin-right: 1rem;
@@ -403,6 +415,7 @@ button:hover {
 #r-series {
     width: 200px;
     background-color: #ffffff;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 12px;
     padding-top: 10px;
 
