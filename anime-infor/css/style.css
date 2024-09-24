@@ -183,7 +183,7 @@ button:hover {
     background-color: #2e51a2;
     color: #ffffff;
     border-radius: 20px;
-    width: 8.2rem;
+    width: 8.5rem;
     height: 5.5rem;
     text-align: center;
     margin-right: 1rem;
@@ -227,9 +227,12 @@ button:hover {
     background-color: #ffffff;
     box-shadow: 10px 10px 10px #000000;
     padding: 20px;
+    width: 55rem;
+    height: max-content;
     border-radius: 20px;
     margin-left: 1rem;
     margin-right: 1rem;
+    flex-wrap: nowrap;
 
     h3 {
         margin: 0;
@@ -249,12 +252,13 @@ button:hover {
 #infor-box {
     background: #f5f5f5;
     box-shadow: 10px 10px 10px #000000;
-    width: 240px;
+    width: 15rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     height: max-content;
     border-radius: 20px;
     vertical-align: top;
+    overflow: hidden;
 
     h3 {
         padding-top: 10px;
@@ -287,6 +291,7 @@ button:hover {
     margin-left: 10px;
     text-align: top;
     overflow: hidden;
+    flex-wrap: nowrap;
     
 
     img {
@@ -365,6 +370,8 @@ button:hover {
 
 .op-sec-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .op-content {
@@ -372,7 +379,6 @@ button:hover {
     box-shadow: 10px 10px 10px #000000;
     border-radius: 12px;
     padding: 5px;
-    margin-right: 1rem;
     
     h4 {
         padding: 5px;
@@ -392,7 +398,6 @@ button:hover {
     box-shadow: 10px 10px 10px #000000;
     border-radius: 12px;
     padding: 5px;
-    margin-right: 1rem;
     overflow: hidden;
     
     h4 {
