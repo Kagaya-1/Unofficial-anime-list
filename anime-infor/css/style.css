@@ -112,7 +112,11 @@ button:hover {
 /* Main content */
 
 #body-content {
-    margin: 0 4rem;
+    max-width: max-content;
+    align-items: top;
+    display: column;
+    margin-left: auto;
+    margin-right: auto;
     margin-top : 1rem;
     margin-bottom: 2rem;
     overflow: hidden;
@@ -246,6 +250,7 @@ button:hover {
 
 #main-content-2 {
     display: flex;
+    position: relative;
 }
 
 /* Infor Box */
